@@ -1,0 +1,44 @@
+{
+	"name": "ContainerFilter",
+	"version": "1.0.1",
+	"license-name": "GPL-3.0-only",
+	"author": [
+		"[http://www.hallowelt.com Hallo Welt! GmbH]"
+	],
+	"url": "http://www.hallowelt.com",
+	"descriptionmsg": "containerfilter-desc",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"ContainerFilter": "i18n"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ContainerFilter\\": "src/"
+	},
+	"ResourceModules": {
+		"ext.containerFilter.tag": {
+			"scripts": [
+				"ext.containerFilter.tag.js"
+			],
+			"dependencies": [
+				"oojs-ui-core"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ContainerFilter/resources"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\ContainerFilter\\HookHandler\\Main"
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"main"
+		]
+	},
+	"manifest_version": 2
+}
