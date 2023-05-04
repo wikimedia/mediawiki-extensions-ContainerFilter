@@ -10,6 +10,20 @@
 	"requires": {
 		"MediaWiki": ">= 1.35.0"
 	},
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.containerFilter.ve.nodes"
+			]
+		},
+		"ContentDroplets": {
+			"Droplets": {
+				"container-filter": {
+					"class": "\\MediaWiki\\Extension\\ContainerFilter\\ContentDroplets\\ContainerFilter"
+				}
+			}
+		}
+	},
 	"MessagesDirs": {
 		"ContainerFilter": "i18n"
 	},
@@ -23,6 +37,22 @@
 			],
 			"dependencies": [
 				"oojs-ui-core"
+			]
+		},
+		"ext.containerFilter.ve.nodes": {
+			"scripts": [
+				"nodes/ext.containerfilter.ce.ContainerFilterNode.js",
+				"nodes/ext.containerfilter.dm.ContainerFilterNode.js",
+				"nodes/ext.containerfilter.ui.ContainerFilterInspector.js",
+				"nodes/ext.containerfilter.ui.ContainerFilterInspectorTool.js"
+			],
+			"messages": [
+				"containerfilter-inspector-title",
+				"containerfilter-inspector-input-selector",
+				"containerfilter-inspector-input-selector-placeholder"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
 			]
 		}
 	},

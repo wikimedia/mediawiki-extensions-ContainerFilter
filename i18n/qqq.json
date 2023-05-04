@@ -4,5 +4,10 @@
 			"Robert Vogel"
 		]
 	},
-	"containerfilter-desc": "Description of ContainerFilter for [[Special:Version]]"
+	"containerfilter-desc": "Description of ContainerFilter for [[Special:Version]]",
+	"containerfilter-inspector-title": "Title of inspector",
+	"containerfilter-inspector-input-selector": "Label for input widget which allows to set selectors which content section should be search",
+	"containerfilter-inspector-input-selector-placeholder": "Helptext for input widget",
+	"containerfiler-droplet-name": "Text for droplet name for tag containerfilter",
+	"containerfiler-droplet-description": "Description for droplet of tag containerfilter"
 }
