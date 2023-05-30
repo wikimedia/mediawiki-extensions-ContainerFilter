@@ -12,6 +12,6 @@
 		"mw": "readonly",
 		"OO": "readonly",
 		"ve": "readonly",
-		"ext": "readonly"
+		"ext": "writable"
 	}
 }
