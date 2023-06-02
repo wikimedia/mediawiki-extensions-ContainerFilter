@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dogogos123"
+		]
+	},
+	"containerfilter-inspector-title": "Φίλτρο περιεχομένου",
+	"containerfilter-inspector-input-selector": "Εκλέκτορας",
+	"containerfilter-inspector-input-selector-placeholder": "Προσθέστε επιλογείς για να προσαρμόσετε το εύρος που θα φιλτράρετε. Χωρίς προδιαγραφές, το φιλτράρισμα γίνεται από το \".wikitable tr\"",
+	"containerfiler-droplet-name": "Φίλτρο περιεχομένου",
+	"containerfiler-droplet-description": "Επιτρέπει το φιλτράρισμα κατά περιεχόμενο σε καθορισμένες περιοχές"
+}
