@@ -57,15 +57,16 @@ ext.containerfilter.ui.ContainerFilterInspector.prototype.initialize = function 
 ext.containerfilter.ui.ContainerFilterInspector.prototype.createFields = function () {
 	this.selectorInput = new OO.ui.MultilineTextInputWidget( {
 		rows: 2,
-		placeholder: ve.msg( 'containerfilter-inspector-input-selector-placeholder' )
+		placeholder: '.wikitable tr'
 	} );
 };
 
 ext.containerfilter.ui.ContainerFilterInspector.prototype.setLayouts = function () {
 	this.selectorLayout = new OO.ui.FieldLayout( this.selectorInput, {
-		label: ve.msg( 'containerfilter-inspector-input-selector' )
+		label: ve.msg( 'containerfilter-inspector-input-selector' ),
+		$overlay: true,
+		help: ve.msg( 'containerfilter-inspector-input-selector-placeholder' )
 	} );
-
 };
 
 /**
