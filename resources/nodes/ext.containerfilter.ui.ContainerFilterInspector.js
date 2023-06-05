@@ -4,7 +4,9 @@ ext.containerfilter.ui = ext.containerfilter.ui || {};
 
 ext.containerfilter.ui.ContainerFilterInspector = function ( config ) {
 	// Parent constructor
-	ext.containerfilter.ui.ContainerFilterInspector.super.call( this, ve.extendObject( { padded: true }, config ) );
+	ext.containerfilter.ui.ContainerFilterInspector.super.call(
+		this, ve.extendObject( { padded: true }, config )
+	);
 };
 
 /* Inheritance */
@@ -17,7 +19,8 @@ ext.containerfilter.ui.ContainerFilterInspector.static.name = 'containerFilterIn
 
 ext.containerfilter.ui.ContainerFilterInspector.static.title = OO.ui.deferMsg( 'containerfilter-inspector-title' );
 
-ext.containerfilter.ui.ContainerFilterInspector.static.modelClasses = [ ext.containerfilter.dm.ContainerFilterNode ];
+ext.containerfilter.ui.ContainerFilterInspector.static.modelClasses =
+	[ ext.containerfilter.dm.ContainerFilterNode ];
 
 ext.containerfilter.ui.ContainerFilterInspector.static.dir = 'ltr';
 
@@ -72,13 +75,14 @@ ext.containerfilter.ui.ContainerFilterInspector.prototype.setLayouts = function 
  * @inheritdoc
  */
 ext.containerfilter.ui.ContainerFilterInspector.prototype.getSetupProcess = function ( data ) {
-	return ext.containerfilter.ui.ContainerFilterInspector.super.prototype.getSetupProcess.call( this, data )
-		.next( function () {
-			var attributes = this.selectedNode.getAttribute( 'mw' ).attrs;
+	return ext.containerfilter.ui.ContainerFilterInspector.super.prototype.getSetupProcess.call(
+		this, data
+	).next( function () {
+		var attributes = this.selectedNode.getAttribute( 'mw' ).attrs;
 
-			this.selectorInput.setValue( attributes.selector || '' );
-			this.actions.setAbilities( { done: true } );
-		}, this );
+		this.selectorInput.setValue( attributes.selector || '' );
+		this.actions.setAbilities( { done: true } );
+	}, this );
 };
 
 ext.containerfilter.ui.ContainerFilterInspector.prototype.wireEvents = function () {
@@ -86,7 +90,9 @@ ext.containerfilter.ui.ContainerFilterInspector.prototype.wireEvents = function 
 };
 
 ext.containerfilter.ui.ContainerFilterInspector.prototype.updateMwData = function ( mwData ) {
-	ext.containerfilter.ui.ContainerFilterInspector.super.prototype.updateMwData.call( this, mwData );
+	ext.containerfilter.ui.ContainerFilterInspector.super.prototype.updateMwData.call(
+		this, mwData
+	);
 
 	if ( this.selectorInput.getValue() !== '' ) {
 		mwData.attrs.selector = this.selectorInput.getValue();
@@ -98,9 +104,10 @@ ext.containerfilter.ui.ContainerFilterInspector.prototype.updateMwData = functio
 /**
  * @inheritdoc
  */
-ext.containerfilter.ui.ContainerFilterInspector.prototype.formatGeneratedContentsError = function ( $element ) {
-	return $element.text().trim();
-};
+ext.containerfilter.ui.ContainerFilterInspector.prototype.formatGeneratedContentsError =
+	function ( $element ) {
+		return $element.text().trim();
+	};
 
 /**
  * Append the error to the current tab panel.
