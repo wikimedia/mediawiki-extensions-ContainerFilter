@@ -4,5 +4,10 @@
 			"Bjankuloski06"
 		]
 	},
-	"containerfilter-desc": "Овозможува филтрирање на содржински елементи во страница"
+	"containerfilter-desc": "Овозможува филтрирање на содржински елементи во страница",
+	"containerfilter-inspector-title": "Филтер на содржини",
+	"containerfilter-inspector-input-selector": "Избирач",
+	"containerfilter-inspector-input-selector-placeholder": "Додај избирачи за прилагодување на опсегот на филтрирање. Без укажување, филтрирањето ќе го врши „.wikitable tr“",
+	"containerfiler-droplet-name": "Филтер на содржини",
+	"containerfiler-droplet-description": "Овозможува филтрирање на содржини во одредливи подрачја"
 }

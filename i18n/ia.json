@@ -4,5 +4,10 @@
 			"McDutchie"
 		]
 	},
-	"containerfilter-desc": "Permitter filtrar elementos de contento in un pagina"
+	"containerfilter-desc": "Permitter filtrar elementos de contento in un pagina",
+	"containerfilter-inspector-title": "Filtro de contento",
+	"containerfilter-inspector-input-selector": "Selector",
+	"containerfilter-inspector-input-selector-placeholder": "Adde selectores pro personalisar le intervallo a filtrar. Sin specification, le filtration se face per \".wikitable tr\"",
+	"containerfiler-droplet-name": "Filtro de contento",
+	"containerfiler-droplet-description": "Permitte filtrar per contento in areas definibile"
 }
