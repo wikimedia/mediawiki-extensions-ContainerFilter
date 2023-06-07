@@ -46,6 +46,9 @@
 				"nodes/ext.containerfilter.ui.ContainerFilterInspector.js",
 				"nodes/ext.containerfilter.ui.ContainerFilterInspectorTool.js"
 			],
+			"styles": [
+				"stylesheets/ext.containerFilter.droplet.css"
+			],
 			"messages": [
 				"containerfilter-inspector-title",
 				"containerfilter-inspector-input-selector",
