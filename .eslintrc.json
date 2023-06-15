@@ -9,8 +9,6 @@
 		"no-implicit-globals": "off"
 	},
 	"globals": {
-		"mw": "readonly",
-		"OO": "readonly",
 		"ve": "readonly",
 		"ext": "writable"
 	}
