@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alshamiri1"
+			"Alshamiri1",
+			"Asma"
 		]
 	},
-	"containerfilter-desc": "يسمح لتصفية عناصر المحتوى داخل الصفحة"
+	"containerfilter-desc": "يسمح لتصفية عناصر المحتوى داخل الصفحة",
+	"containerfilter-inspector-title": "تصفية المحتوى",
+	"containerfilter-inspector-input-selector": "اختيار",
+	"containerfilter-inspector-input-selector-placeholder": "أضف المحددات لتخصيص النطاق المراد تصفيته. بدون تحديد ، يتم إجراء التصفية بواسطة \".wikitable tr\"",
+	"containerfiler-droplet-name": "تصفية المحتوى",
+	"containerfiler-droplet-description": "يسمح بالتصفية حسب المحتوى في مناطق محددة"
 }
