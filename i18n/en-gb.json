@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piano1forte2"
+		]
+	},
+	"containerfilter-inspector-input-selector-placeholder": "Add selectors to customise the range to be filtered. Without specification, filtering is done by '.wikitable tr'"
+}
