@@ -4,5 +4,10 @@
 			"Eleassar"
 		]
 	},
-	"containerfilter-desc": "Omogoča filtriranje vsebinskih elementov znotraj strani"
+	"containerfilter-desc": "Omogoča filtriranje vsebinskih elementov znotraj strani",
+	"containerfilter-inspector-title": "Filter vsebine",
+	"containerfilter-inspector-input-selector": "Izbirnik",
+	"containerfilter-inspector-input-selector-placeholder": "Dodajte izbirnike, da prilagodite območje za filtriranje. Brez določitve se filtriranje izvede po ».wikitable tr«.",
+	"containerfiler-droplet-name": "Filter vsebine",
+	"containerfiler-droplet-description": "Omogoča filtriranje po vsebini v opredeljivih območjih"
 }

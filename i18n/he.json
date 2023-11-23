@@ -4,5 +4,10 @@
 			"Amire80"
 		]
 	},
-	"containerfilter-desc": "אפשרות לסנן רכיבי תוכן בתוך דף"
+	"containerfilter-desc": "אפשרות לסנן רכיבי תוכן בתוך דף",
+	"containerfilter-inspector-title": "מסנן תוכן",
+	"containerfilter-inspector-input-selector": "בורר",
+	"containerfilter-inspector-input-selector-placeholder": "הוספת בוררים כדי להתאים אישית את טווח הסינון. ללא פירוט, הסינון נעשה לפי \"<code dir=\"ltr\">.wikitable tr</code>\"",
+	"containerfiler-droplet-name": "מסנן תוכן",
+	"containerfiler-droplet-description": "אפשרות סינון לפי תוכן באזורים הניתנים להגדרה"
 }

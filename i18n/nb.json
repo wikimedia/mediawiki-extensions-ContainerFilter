@@ -4,5 +4,10 @@
 			"Jon Harald Søby"
 		]
 	},
-	"containerfilter-desc": "Gjør det mulig å filtrere innholdselementer på en side"
+	"containerfilter-desc": "Gjør det mulig å filtrere innholdselementer på en side",
+	"containerfilter-inspector-title": "Innholdsfilter",
+	"containerfilter-inspector-input-selector": "Selektor",
+	"containerfilter-inspector-input-selector-placeholder": "Legg til selektorer for å tilpasse området som skal filtreres. Uten spesifisering gjøres filtreringen på «.wikitable tr»",
+	"containerfiler-droplet-name": "Innholdsfilter",
+	"containerfiler-droplet-description": "Gjør det mulig å filtrere innhold i definerbare områder"
 }

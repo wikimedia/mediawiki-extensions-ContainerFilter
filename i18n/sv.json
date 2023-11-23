@@ -4,5 +4,10 @@
 			"Sabelöga"
 		]
 	},
-	"containerfilter-desc": "Gör så att man kan filtrera innehållselement på en sida"
+	"containerfilter-desc": "Gör så att man kan filtrera innehållselement på en sida",
+	"containerfilter-inspector-title": "Innehållsfilter",
+	"containerfilter-inspector-input-selector": "Väljare",
+	"containerfilter-inspector-input-selector-placeholder": "Lägg till väljare för att anpassa intervallet som ska filtreras. Utan specifikation, kommer filtreringen utföras av \".wikitable tr\"",
+	"containerfiler-droplet-name": "Innehållsfilter",
+	"containerfiler-droplet-description": "Tillåter innehållsfiltrering i definierbara områden"
 }
