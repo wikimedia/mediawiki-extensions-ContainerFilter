@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"containerfilter-desc": "Maakt het mogelijk om inhoudselementen binnen een pagina te filteren",
+	"containerfilter-inspector-title": "Inhoudsfilter",
+	"containerfilter-inspector-input-selector": "Keuzeveld",
+	"containerfilter-inspector-input-selector-placeholder": "Voeg keuzevelden toe om het te filteren bereik aan te passen. Wordt er niets opgegeven, dan wordt er gefilterd op “.wikitable tr”.",
+	"containerfiler-droplet-name": "Inhoudsfilter",
+	"containerfiler-droplet-description": "Maakt het mogelijk op inhoud te filteren in te bepalen gebieden"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"containerfilter-desc": "Bir sayfadaki içerik ögelerini filtrelemeye izin verir",
+	"containerfilter-inspector-title": "İçerik Filtresi",
+	"containerfilter-inspector-input-selector": "Seçici",
+	"containerfilter-inspector-input-selector-placeholder": "Filtrelenecek aralığı özelleştirmek için seçiciler ekleyin. Belirtme olmadan filtreleme \".wikitable tr\" ile yapılır.",
+	"containerfiler-droplet-name": "İçerik Filtresi",
+	"containerfiler-droplet-description": "Tanımlanabilir alanlarda içeriğe göre filtrelemeye izin verir"
+}
