@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"沈澄心"
+		]
+	},
+	"containerfilter-desc": "允许过滤页面内的内容元素",
+	"containerfilter-inspector-title": "内容过滤器",
+	"containerfiler-droplet-name": "内容过滤器"
+}
