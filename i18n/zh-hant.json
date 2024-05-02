@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"containerfilter-desc": "允許過濾頁面裡的內容元素",
+	"containerfilter-inspector-title": "內容過濾器",
+	"containerfilter-inspector-input-selector": "選擇器",
+	"containerfilter-inspector-input-selector-placeholder": "新增選擇器來自訂要過濾的範圍。若沒有指定，則會透過「.wikitable tr」進行過濾",
+	"containerfiler-droplet-name": "內容過濾器",
+	"containerfiler-droplet-description": "允許按可定義區域裡的內容來過濾"
+}
