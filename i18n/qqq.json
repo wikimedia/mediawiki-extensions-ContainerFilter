@@ -9,5 +9,7 @@
 	"containerfilter-inspector-input-selector": "Label for input widget which allows to set selectors which content section should be search",
 	"containerfilter-inspector-input-selector-placeholder": "Helptext for input widget",
 	"containerfiler-droplet-name": "Text for droplet name for tag containerfilter",
-	"containerfiler-droplet-description": "Description for droplet of tag containerfilter"
+	"containerfiler-droplet-description": "Description for droplet of tag containerfilter",
+	"containerfilter-input-aria-label": "Aria label for input field to filter container",
+	"containerfilter-filter-results-label": "Label for results found from filtering\nParameters:\n* $1 - number of results"
 }

@@ -35,6 +35,10 @@
 			"scripts": [
 				"ext.containerFilter.tag.js"
 			],
+			"messages": [
+				"containerfilter-input-aria-label",
+				"containerfilter-filter-results-label"
+			],
 			"dependencies": [
 				"oojs-ui-core"
 			]
