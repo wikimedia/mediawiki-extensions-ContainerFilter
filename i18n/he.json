@@ -9,5 +9,7 @@
 	"containerfilter-inspector-input-selector": "בורר",
 	"containerfilter-inspector-input-selector-placeholder": "הוספת בוררים כדי להתאים אישית את טווח הסינון. ללא פירוט, הסינון נעשה לפי \"<code dir=\"ltr\">.wikitable tr</code>\"",
 	"containerfiler-droplet-name": "מסנן תוכן",
-	"containerfiler-droplet-description": "אפשרות סינון לפי תוכן באזורים הניתנים להגדרה"
+	"containerfiler-droplet-description": "אפשרות סינון לפי תוכן באזורים הניתנים להגדרה",
+	"containerfilter-input-aria-label": "מסנן",
+	"containerfilter-filter-results-label": "{{PLURAL:$1|נמצאה תוצאה אחת|נמצאו $1 תוצאות}}"
 }

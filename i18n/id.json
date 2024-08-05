@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agam Riyandana"
+		]
+	},
+	"containerfilter-input-aria-label": "Penyaring",
+	"containerfilter-filter-results-label": "$1 {{PLURAL:$1|hasil}}"
+}

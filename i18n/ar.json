@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Alshamiri1",
-			"Asma"
+			"Asma",
+			"إزبيكييل"
 		]
 	},
 	"containerfilter-desc": "يسمح لتصفية عناصر المحتوى داخل الصفحة",
@@ -10,5 +11,7 @@
 	"containerfilter-inspector-input-selector": "اختيار",
 	"containerfilter-inspector-input-selector-placeholder": "أضف المحددات لتخصيص النطاق المراد تصفيته. بدون تحديد ، يتم إجراء التصفية بواسطة \".wikitable tr\"",
 	"containerfiler-droplet-name": "تصفية المحتوى",
-	"containerfiler-droplet-description": "يسمح بالتصفية حسب المحتوى في مناطق محددة"
+	"containerfiler-droplet-description": "يسمح بالتصفية حسب المحتوى في مناطق محددة",
+	"containerfilter-input-aria-label": "مفلتر الي درجه النقاء",
+	"containerfilter-filter-results-label": "لقينا  $1 {{PLURAL:$1|result|results}}"
 }
