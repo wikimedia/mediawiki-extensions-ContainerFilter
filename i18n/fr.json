@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"Méthodes Bulebe Hangi",
 			"Verdy p"
 		]
 	},
@@ -10,5 +11,7 @@
 	"containerfilter-inspector-input-selector": "Sélecteur",
 	"containerfilter-inspector-input-selector-placeholder": "Ajoute des sélecteurs afin de personnaliser la plage à filtrer. Sans indication, le filtrage est réalisé par « .wikitable tr »",
 	"containerfiler-droplet-name": "Filtre de contenu",
-	"containerfiler-droplet-description": "Permet le filtrage selon le contenu dans des zones définissables."
+	"containerfiler-droplet-description": "Permet le filtrage selon le contenu dans des zones définissables.",
+	"containerfilter-input-aria-label": "filtrer",
+	"containerfilter-filter-results-label": "$1 {{PLURAL:$1|result|results}} résultat trouvé (s)"
 }

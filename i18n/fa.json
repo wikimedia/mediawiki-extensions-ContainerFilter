@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jeeputer"
+		]
+	},
+	"containerfilter-input-aria-label": "پالایه",
+	"containerfilter-filter-results-label": "$1 {{PLURAL:$1|نتیجه}} یافت شد"
+}

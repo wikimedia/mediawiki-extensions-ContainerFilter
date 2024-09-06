@@ -9,5 +9,7 @@
 	"containerfilter-inspector-input-selector": "Избирач",
 	"containerfilter-inspector-input-selector-placeholder": "Додај избирачи за прилагодување на опсегот на филтрирање. Без укажување, филтрирањето ќе го врши „.wikitable tr“",
 	"containerfiler-droplet-name": "Филтер на содржини",
-	"containerfiler-droplet-description": "Овозможува филтрирање на содржини во одредливи подрачја"
+	"containerfiler-droplet-description": "Овозможува филтрирање на содржини во одредливи подрачја",
+	"containerfilter-input-aria-label": "Филтер",
+	"containerfilter-filter-results-label": "Пронајдов $1 {{PLURAL:$1|ставка|ставки}}"
 }

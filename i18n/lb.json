@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Volvox"
+		]
+	},
+	"containerfilter-filter-results-label": "$1 {{PLURAL:$1|Resultat|Resultater}} fonnt"
+}
