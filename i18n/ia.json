@@ -9,5 +9,7 @@
 	"containerfilter-inspector-input-selector": "Selector",
 	"containerfilter-inspector-input-selector-placeholder": "Adde selectores pro personalisar le intervallo a filtrar. Sin specification, le filtration se face per \".wikitable tr\"",
 	"containerfiler-droplet-name": "Filtro de contento",
-	"containerfiler-droplet-description": "Permitte filtrar per contento in areas definibile"
+	"containerfiler-droplet-description": "Permitte filtrar per contento in areas definibile",
+	"containerfilter-input-aria-label": "Filtrar",
+	"containerfilter-filter-results-label": "$1 resultato{{PLURAL:$1||s}} trovate"
 }
