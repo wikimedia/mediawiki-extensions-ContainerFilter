@@ -9,5 +9,7 @@
 	"containerfilter-inspector-input-selector": "Keuzeveld",
 	"containerfilter-inspector-input-selector-placeholder": "Voeg keuzevelden toe om het te filteren bereik aan te passen. Wordt er niets opgegeven, dan wordt er gefilterd op “.wikitable tr”.",
 	"containerfiler-droplet-name": "Inhoudsfilter",
-	"containerfiler-droplet-description": "Maakt het mogelijk op inhoud te filteren in te bepalen gebieden"
+	"containerfiler-droplet-description": "Maakt het mogelijk op inhoud te filteren in te bepalen gebieden",
+	"containerfilter-input-aria-label": "Filters",
+	"containerfilter-filter-results-label": "{{PLURAL:$1|Eén resultaat|$1 resultaten}} gevonden"
 }
