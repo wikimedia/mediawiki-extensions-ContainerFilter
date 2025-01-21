@@ -3,11 +3,11 @@
 namespace MediaWiki\Extension\ContainerFilter\HookHandler;
 
 use Html;
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Hook\ParserFirstCallInitHook;
 use OOUI\SearchInputWidget;
 use Parser;
 use PPFrame;
-use RequestContext;
 
 class Main implements ParserFirstCallInitHook {
 
