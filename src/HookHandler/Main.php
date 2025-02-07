@@ -6,8 +6,8 @@ use MediaWiki\Context\RequestContext;
 use MediaWiki\Hook\ParserFirstCallInitHook;
 use MediaWiki\Html\Html;
 use MediaWiki\Parser\Parser;
+use MediaWiki\Parser\PPFrame;
 use OOUI\SearchInputWidget;
-use PPFrame;
 
 class Main implements ParserFirstCallInitHook {
 
