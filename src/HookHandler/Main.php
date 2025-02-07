@@ -35,7 +35,7 @@ class Main implements ParserFirstCallInitHook {
 		$selector = $args['selector'] ?? $defaultSelector;
 		// Using `$parser->getOutput()->setEnableOOUI( true );` will not work for some reason
 		RequestContext::getMain()->getOutput()->enableOOUI();
-		$parser->getOutput()->addModules( 'ext.containerFilter.tag' );
+		$parser->getOutput()->addModules( [ 'ext.containerFilter.tag' ] );
 		$searchField = new SearchInputWidget( [
 			'classes' => [ 'container-filter-search' ],
 			'infusable' => true,
