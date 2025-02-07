@@ -5,8 +5,8 @@ namespace MediaWiki\Extension\ContainerFilter\HookHandler;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Hook\ParserFirstCallInitHook;
 use MediaWiki\Html\Html;
+use MediaWiki\Parser\Parser;
 use OOUI\SearchInputWidget;
-use Parser;
 use PPFrame;
 
 class Main implements ParserFirstCallInitHook {
