@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-jquery/no-global-selector
 $( '.container-filter-search' ).each( function () {
-	var $searchField = $( this ),
+	const $searchField = $( this ),
 		$containerEl = $searchField.parent(),
 		searchField = OO.ui.infuse( $searchField ),
 		$resultCounter = $( '<div>' ).attr( 'aria-live', 'polite' ).addClass( 'visually-hidden' );
@@ -9,16 +9,16 @@ $( '.container-filter-search' ).each( function () {
 	$( searchField.$input ).attr( 'aria-label', mw.message( 'containerfilter-input-aria-label' ).text() );
 	$containerEl.append( $resultCounter );
 	searchField.on( 'change', function ( value ) {
-		var normalValue = value.toLowerCase(),
+		const normalValue = value.toLowerCase(),
 			$elementsToFilter = $( this.selector );
 		if ( normalValue === '' ) {
 			// eslint-disable-next-line no-jquery/no-fade
 			$elementsToFilter.fadeIn();
 			return;
 		}
-		var results = 0;
+		let results = 0;
 		$elementsToFilter.each( function () {
-			var $element = $( this ),
+			const $element = $( this ),
 				elementText = $element.text().toLowerCase();
 			if ( elementText.indexOf( normalValue ) !== -1 ) {
 				// eslint-disable-next-line no-jquery/no-fade

@@ -79,7 +79,7 @@ ext.containerfilter.ui.ContainerFilterInspector.prototype.getSetupProcess = func
 	return ext.containerfilter.ui.ContainerFilterInspector.super.prototype.getSetupProcess.call(
 		this, data
 	).next( function () {
-		var attributes = this.selectedNode.getAttribute( 'mw' ).attrs;
+		const attributes = this.selectedNode.getAttribute( 'mw' ).attrs;
 
 		this.selectorInput.setValue( attributes.selector || '' );
 		this.actions.setAbilities( { done: true } );
