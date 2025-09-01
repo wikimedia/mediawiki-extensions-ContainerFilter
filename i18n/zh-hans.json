@@ -1,10 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"沈澄心"
+			"沈澄心",
+			"GuoPC"
 		]
 	},
 	"containerfilter-desc": "允许过滤页面内的内容元素",
 	"containerfilter-inspector-title": "内容过滤器",
-	"containerfiler-droplet-name": "内容过滤器"
+	"containerfilter-inspector-input-selector": "选择器",
+	"containerfilter-inspector-input-selector-placeholder": "添加选择器以自定义要过滤的范围。如果没有指定，则会使用“.wikitable tr”来过滤。",
+	"containerfiler-droplet-name": "内容过滤器",
+	"containerfiler-droplet-description": "允许按可定义区域内的内容来过滤",
+	"containerfilter-input-aria-label": "过滤",
+	"containerfilter-filter-results-label": "找到$1{{PLURAL:$1|个结果}}"
 }
