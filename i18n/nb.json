@@ -9,5 +9,7 @@
 	"containerfilter-inspector-input-selector": "Selektor",
 	"containerfilter-inspector-input-selector-placeholder": "Legg til selektorer for å tilpasse området som skal filtreres. Uten spesifisering gjøres filtreringen på «.wikitable tr»",
 	"containerfiler-droplet-name": "Innholdsfilter",
-	"containerfiler-droplet-description": "Gjør det mulig å filtrere innhold i definerbare områder"
+	"containerfiler-droplet-description": "Gjør det mulig å filtrere innhold i definerbare områder",
+	"containerfilter-input-aria-label": "Filter",
+	"containerfilter-filter-results-label": "$1 {{PLURAL:$1|resultat|resultater}} funnet"
 }
