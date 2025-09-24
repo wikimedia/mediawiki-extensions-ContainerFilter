@@ -20,7 +20,7 @@ $( '.container-filter-search' ).each( function () {
 		$elementsToFilter.each( function () {
 			const $element = $( this ),
 				elementText = $element.text().toLowerCase();
-			if ( elementText.indexOf( normalValue ) !== -1 ) {
+			if ( elementText.includes( normalValue ) ) {
 				// eslint-disable-next-line no-jquery/no-fade
 				$element.fadeIn();
 				results += 1;
