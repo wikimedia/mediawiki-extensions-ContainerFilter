@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"containerfilter-desc": "Permite filtrar elementos de contido dentro dunha páxina",
+	"containerfilter-inspector-title": "Filtro de contido",
+	"containerfilter-inspector-input-selector": "Selector",
+	"containerfilter-inspector-input-selector-placeholder": "Engadir selectores para personalizar o rango que se vai filtrar. Sen especificación, o filtrado faise mediante «.wikitable tr».",
+	"containerfiler-droplet-name": "Filtro de contido",
+	"containerfiler-droplet-description": "Permite filtrar por contido en áreas definibles",
+	"containerfilter-input-aria-label": "Filtro",
+	"containerfilter-filter-results-label": "{{PLURAL:$1|Atopouse un resultado|Atopáronse $1 resultados}}"
+}
