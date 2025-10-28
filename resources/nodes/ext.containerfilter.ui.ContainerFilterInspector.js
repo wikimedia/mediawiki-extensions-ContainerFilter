@@ -68,7 +68,8 @@ ext.containerfilter.ui.ContainerFilterInspector.prototype.setLayouts = function 
 	this.selectorLayout = new OO.ui.FieldLayout( this.selectorInput, {
 		label: ve.msg( 'containerfilter-inspector-input-selector' ),
 		$overlay: true,
-		help: ve.msg( 'containerfilter-inspector-input-selector-placeholder' )
+		help: ve.msg( 'containerfilter-inspector-input-selector-placeholder' ),
+		align: 'top'
 	} );
 };
 
