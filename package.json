@@ -1,5 +1,5 @@
 {
-	"name": "PreToClip",
+	"name": "ContainerFilter",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
