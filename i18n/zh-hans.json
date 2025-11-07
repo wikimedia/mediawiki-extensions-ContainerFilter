@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"沈澄心",
-			"GuoPC"
+			"GuoPC",
+			"沈澄心"
 		]
 	},
 	"containerfilter-desc": "允许过滤页面内的内容元素",
