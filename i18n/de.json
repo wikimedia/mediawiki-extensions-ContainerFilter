@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mschlindwein",
 			"Robert Vogel"
 		]
 	},
 	"containerfilter-desc": "Erlaubt das Filtern von Inhaltselementen auf einer Seite",
 	"containerfilter-inspector-title": "Inhaltsfilter",
-	"containerfilter-inspector-input-selector": "Selector",
-	"containerfilter-inspector-input-selector-placeholder": "Füge Selektoren hinzu, um den Bereich, der gefiltert werden soll, anzupassen. Ohne Angabe wird nach \".wikitable tr\" gefiltert",
+	"containerfilter-inspector-input-selector": "Selektor",
+	"containerfilter-inspector-input-selector-placeholder": "{{#FORMAL:Füge|Fügen Sie}} Selektoren hinzu, um den Bereich, der gefiltert werden soll, anzupassen. Ohne Angabe wird nach \".wikitable tr\" gefiltert",
 	"containerfiler-droplet-name": "Inhaltsfilter",
 	"containerfiler-droplet-description": "Erlaubt das Filtern nach Inhalten in definierbaren Bereichen",
 	"containerfilter-input-aria-label": "Filter",
