@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sabelöga"
+			"Sabelöga",
+			"Stefan2255"
 		]
 	},
 	"containerfilter-desc": "Gör så att man kan filtrera innehållselement på en sida",
@@ -9,5 +10,7 @@
 	"containerfilter-inspector-input-selector": "Väljare",
 	"containerfilter-inspector-input-selector-placeholder": "Lägg till väljare för att anpassa intervallet som ska filtreras. Utan specifikation, kommer filtreringen utföras av \".wikitable tr\"",
 	"containerfiler-droplet-name": "Innehållsfilter",
-	"containerfiler-droplet-description": "Tillåter innehållsfiltrering i definierbara områden"
+	"containerfiler-droplet-description": "Tillåter innehållsfiltrering i definierbara områden",
+	"containerfilter-input-aria-label": "Filter",
+	"containerfilter-filter-results-label": "$1 {{PLURAL:$1|resultat}} hittades"
 }
