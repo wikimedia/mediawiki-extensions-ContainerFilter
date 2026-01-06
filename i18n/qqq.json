@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robert Vogel"
+			"Robert Vogel",
+			"Umherirrender"
 		]
 	},
-	"containerfilter-desc": "Description of ContainerFilter for [[Special:Version]]",
+	"containerfilter-desc": "{{desc|name=ContainerFilter|url=https://m.mediawiki.org/wiki/Extension:ContainerFilter}}",
 	"containerfilter-inspector-title": "Title of inspector",
 	"containerfilter-inspector-input-selector": "Label for input widget which allows to set selectors which content section should be search",
 	"containerfilter-inspector-input-selector-placeholder": "Helptext for input widget",
