@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tensama0415"
+		]
+	},
+	"containerfilter-desc": "문서 내 콘텐츠 요소를 필터링할 수 있습니다",
+	"containerfilter-inspector-title": "콘텐츠 필터",
+	"containerfilter-inspector-input-selector": "선택기",
+	"containerfilter-inspector-input-selector-placeholder": "필터링 범위를 사용자 지정하려면 선택기를 추가하세요. 별도로 지정하지 않으면 \".wikitable tr\"로 필터링합니다.",
+	"containerfiler-droplet-name": "콘텐츠 필터",
+	"containerfiler-droplet-description": "지정된 영역 내의 콘텐츠를 기준으로 필터링할 수 있습니다",
+	"containerfilter-input-aria-label": "필터",
+	"containerfilter-filter-results-label": "$1개 {{PLURAL:$1|결과}} 찾음"
+}
