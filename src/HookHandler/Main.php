@@ -30,7 +30,7 @@ class Main implements ParserFirstCallInitHook {
 	 */
 	private function render( $input, array $args, Parser $parser, PPFrame $frame ) {
 		$defaultSelector =
-			'.fitlerable-container,' .
+			'.filterable-container,' .
 			'.wikitable tr:not(:has(th))';
 		$selector = $args['selector'] ?? $defaultSelector;
 		// Using `$parser->getOutput()->setEnableOOUI( true );` will not work for some reason
