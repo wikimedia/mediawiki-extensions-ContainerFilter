@@ -1,38 +1,34 @@
-ext = ext || {};
-ext.containerfilter = ext.containerfilter || {};
-ext.containerfilter.ui = ext.containerfilter.ui || {};
-
-ext.containerfilter.ui.ContainerFilterInspector = function ( config ) {
+ve.ui.MWContainerFilterInspector = function VeUiMWContainerFilterInspector( config ) {
 	// Parent constructor
-	ext.containerfilter.ui.ContainerFilterInspector.super.call(
+	ve.ui.MWContainerFilterInspector.super.call(
 		this, ve.extendObject( { padded: true }, config )
 	);
 };
 
 /* Inheritance */
 
-OO.inheritClass( ext.containerfilter.ui.ContainerFilterInspector, ve.ui.MWLiveExtensionInspector );
+OO.inheritClass( ve.ui.MWContainerFilterInspector, ve.ui.MWLiveExtensionInspector );
 
 /* Static properties */
 
-ext.containerfilter.ui.ContainerFilterInspector.static.name = 'containerFilterInspector';
+ve.ui.MWContainerFilterInspector.static.name = 'containerFilterInspector';
 
-ext.containerfilter.ui.ContainerFilterInspector.static.title = OO.ui.deferMsg( 'containerfilter-inspector-title' );
+ve.ui.MWContainerFilterInspector.static.title = OO.ui.deferMsg( 'containerfilter-inspector-title' );
 
-ext.containerfilter.ui.ContainerFilterInspector.static.modelClasses =
-	[ ext.containerfilter.dm.ContainerFilterNode ];
+ve.ui.MWContainerFilterInspector.static.modelClasses =
+	[ ve.dm.MWContainerFilterNode ];
 
-ext.containerfilter.ui.ContainerFilterInspector.static.dir = 'ltr';
+ve.ui.MWContainerFilterInspector.static.dir = 'ltr';
 
 // This tag does not have any content
-ext.containerfilter.ui.ContainerFilterInspector.static.allowedEmpty = true;
-ext.containerfilter.ui.ContainerFilterInspector.static.selfCloseEmptyBody = false;
+ve.ui.MWContainerFilterInspector.static.allowedEmpty = true;
+ve.ui.MWContainerFilterInspector.static.selfCloseEmptyBody = false;
 
 /**
  * @inheritdoc
  */
-ext.containerfilter.ui.ContainerFilterInspector.prototype.initialize = function () {
-	ext.containerfilter.ui.ContainerFilterInspector.super.prototype.initialize.call( this );
+ve.ui.MWContainerFilterInspector.prototype.initialize = function () {
+	ve.ui.MWContainerFilterInspector.super.prototype.initialize.call( this );
 
 	// remove input field with links in it
 	this.input.$element.remove();
@@ -57,14 +53,14 @@ ext.containerfilter.ui.ContainerFilterInspector.prototype.initialize = function 
 	);
 };
 
-ext.containerfilter.ui.ContainerFilterInspector.prototype.createFields = function () {
+ve.ui.MWContainerFilterInspector.prototype.createFields = function () {
 	this.selectorInput = new OO.ui.MultilineTextInputWidget( {
 		rows: 2,
 		placeholder: '.wikitable tr'
 	} );
 };
 
-ext.containerfilter.ui.ContainerFilterInspector.prototype.setLayouts = function () {
+ve.ui.MWContainerFilterInspector.prototype.setLayouts = function () {
 	this.selectorLayout = new OO.ui.FieldLayout( this.selectorInput, {
 		label: ve.msg( 'containerfilter-inspector-input-selector' ),
 		$overlay: true,
@@ -76,8 +72,8 @@ ext.containerfilter.ui.ContainerFilterInspector.prototype.setLayouts = function 
 /**
  * @inheritdoc
  */
-ext.containerfilter.ui.ContainerFilterInspector.prototype.getSetupProcess = function ( data ) {
-	return ext.containerfilter.ui.ContainerFilterInspector.super.prototype.getSetupProcess.call(
+ve.ui.MWContainerFilterInspector.prototype.getSetupProcess = function ( data ) {
+	return ve.ui.MWContainerFilterInspector.super.prototype.getSetupProcess.call(
 		this, data
 	).next( function () {
 		const attributes = this.selectedNode.getAttribute( 'mw' ).attrs;
@@ -87,12 +83,8 @@ ext.containerfilter.ui.ContainerFilterInspector.prototype.getSetupProcess = func
 	}, this );
 };
 
-ext.containerfilter.ui.ContainerFilterInspector.prototype.wireEvents = function () {
-	this.titleInput.on( 'change', this.onChangeHandler );
-};
-
-ext.containerfilter.ui.ContainerFilterInspector.prototype.updateMwData = function ( mwData ) {
-	ext.containerfilter.ui.ContainerFilterInspector.super.prototype.updateMwData.call(
+ve.ui.MWContainerFilterInspector.prototype.updateMwData = function ( mwData ) {
+	ve.ui.MWContainerFilterInspector.super.prototype.updateMwData.call(
 		this, mwData
 	);
 
@@ -106,18 +98,11 @@ ext.containerfilter.ui.ContainerFilterInspector.prototype.updateMwData = functio
 /**
  * @inheritdoc
  */
-ext.containerfilter.ui.ContainerFilterInspector.prototype.formatGeneratedContentsError =
+ve.ui.MWContainerFilterInspector.prototype.formatGeneratedContentsError =
 	function ( $element ) {
 		return $element.text().trim();
 	};
 
-/**
- * Append the error to the current tab panel.
- */
-ext.containerfilter.ui.ContainerFilterInspector.prototype.onTabPanelSet = function () {
-	this.indexLayout.getCurrentTabPanel().$element.append( this.generatedContentsError.$element );
-};
-
 /* Registration */
 
-ve.ui.windowFactory.register( ext.containerfilter.ui.ContainerFilterInspector );
+ve.ui.windowFactory.register( ve.ui.MWContainerFilterInspector );

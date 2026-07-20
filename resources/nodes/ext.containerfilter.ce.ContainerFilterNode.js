@@ -1,25 +1,21 @@
-ext = ext || {};
-ext.containerfilter = ext.containerfilter || {};
-ext.containerfilter.ce = ext.containerfilter.ce || {};
-
-ext.containerfilter.ce.ContainerFilterNode = function () {
+ve.ce.MWContainerFilterNode = function VeCeMWContainerFilterNode() {
 	// Parent constructor
-	ext.containerfilter.ce.ContainerFilterNode.super.apply( this, arguments );
+	ve.ce.MWContainerFilterNode.super.apply( this, arguments );
 };
 
 /* Inheritance */
 
-OO.inheritClass( ext.containerfilter.ce.ContainerFilterNode, ve.ce.MWInlineExtensionNode );
+OO.inheritClass( ve.ce.MWContainerFilterNode, ve.ce.MWBlockExtensionNode );
 
 /* Static properties */
 
-ext.containerfilter.ce.ContainerFilterNode.static.name = 'containerfilter';
+ve.ce.MWContainerFilterNode.static.name = 'mwContainerFilter';
 
-ext.containerfilter.ce.ContainerFilterNode.static.primaryCommandName = 'containerfilter';
+ve.ce.MWContainerFilterNode.static.primaryCommandName = 'containerFilterCommand';
 
 // If body is empty, tag does not render anything
-ext.containerfilter.ce.ContainerFilterNode.static.rendersEmpty = true;
+ve.ce.MWContainerFilterNode.static.rendersEmpty = true;
 
 /* Registration */
 
-ve.ce.nodeFactory.register( ext.containerfilter.ce.ContainerFilterNode );
+ve.ce.nodeFactory.register( ve.ce.MWContainerFilterNode );

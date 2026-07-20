@@ -1,25 +1,21 @@
-ext = ext || {};
-ext.containerfilter = ext.containerfilter || {};
-ext.containerfilter.ui = ext.containerfilter.ui || {};
-
-ext.containerfilter.ui.ContainerFilterInspectorTool = function ( toolGroup, config ) {
-	ext.containerfilter.ui.ContainerFilterInspectorTool.super.call( this, toolGroup, config );
+ve.ui.MWContainerFilterInspectorTool = function VeUiMWContainerFilterInspectorTool( toolGroup, config ) { // eslint-disable-line max-len
+	ve.ui.MWContainerFilterInspectorTool.super.call( this, toolGroup, config );
 };
 
-OO.inheritClass( ext.containerfilter.ui.ContainerFilterInspectorTool, ve.ui.FragmentInspectorTool );
+OO.inheritClass( ve.ui.MWContainerFilterInspectorTool, ve.ui.FragmentInspectorTool );
 
-ext.containerfilter.ui.ContainerFilterInspectorTool.static.name = 'containerFilterTool';
-ext.containerfilter.ui.ContainerFilterInspectorTool.static.group = 'none';
-ext.containerfilter.ui.ContainerFilterInspectorTool.static.autoAddToCatchall = false;
-ext.containerfilter.ui.ContainerFilterInspectorTool.static.icon = 'funnel';
-ext.containerfilter.ui.ContainerFilterInspectorTool.static.title = OO.ui.deferMsg(
+ve.ui.MWContainerFilterInspectorTool.static.name = 'containerFilterTool';
+ve.ui.MWContainerFilterInspectorTool.static.group = 'none';
+ve.ui.MWContainerFilterInspectorTool.static.autoAddToCatchall = false;
+ve.ui.MWContainerFilterInspectorTool.static.icon = 'funnel';
+ve.ui.MWContainerFilterInspectorTool.static.title = OO.ui.deferMsg(
 	'containerfilter-inspector-title'
 );
-ext.containerfilter.ui.ContainerFilterInspectorTool.static.modelClasses =
-	[ ext.containerfilter.dm.ContainerFilterNode ];
-ext.containerfilter.ui.ContainerFilterInspectorTool.static.commandName = 'containerFilterCommand';
+ve.ui.MWContainerFilterInspectorTool.static.modelClasses =
+	[ ve.dm.MWContainerFilterNode ];
+ve.ui.MWContainerFilterInspectorTool.static.commandName = 'containerFilterCommand';
 
-ve.ui.toolFactory.register( ext.containerfilter.ui.ContainerFilterInspectorTool );
+ve.ui.toolFactory.register( ve.ui.MWContainerFilterInspectorTool );
 
 ve.ui.commandRegistry.register(
 	new ve.ui.Command(
