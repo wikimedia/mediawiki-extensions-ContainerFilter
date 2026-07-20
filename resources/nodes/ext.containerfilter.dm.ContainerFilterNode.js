@@ -1,29 +1,21 @@
-ext = ext || {};
-ext.containerfilter = ext.containerfilter || {};
-ext.containerfilter.dm = ext.containerfilter.dm || {};
-
-ext.containerfilter.dm.ContainerFilterNode = function () {
+ve.dm.MWContainerFilterNode = function VeDmMWContainerFilterNode() {
 	// Parent constructor
-	ext.containerfilter.dm.ContainerFilterNode.super.apply( this, arguments );
+	ve.dm.MWContainerFilterNode.super.apply( this, arguments );
 };
 
 /* Inheritance */
 
-OO.inheritClass( ext.containerfilter.dm.ContainerFilterNode, ve.dm.MWInlineExtensionNode );
+OO.inheritClass( ve.dm.MWContainerFilterNode, ve.dm.MWBlockExtensionNode );
 
 /* Static members */
 
-ext.containerfilter.dm.ContainerFilterNode.static.name = 'containerfilter';
+ve.dm.MWContainerFilterNode.static.name = 'mwContainerFilter';
 
-ext.containerfilter.dm.ContainerFilterNode.static.tagName = 'containerfilter';
+ve.dm.MWContainerFilterNode.static.tagName = 'div';
 
 // Name of the parser tag
-ext.containerfilter.dm.ContainerFilterNode.static.extensionName = 'containerfilter';
-
-// This tag renders without content
-ext.containerfilter.dm.ContainerFilterNode.static.childNodeTypes = [];
-ext.containerfilter.dm.ContainerFilterNode.static.isContent = false;
+ve.dm.MWContainerFilterNode.static.extensionName = 'containerfilter';
 
 /* Registration */
 
-ve.dm.modelRegistry.register( ext.containerfilter.dm.ContainerFilterNode );
+ve.dm.modelRegistry.register( ve.dm.MWContainerFilterNode );

@@ -45,8 +45,8 @@
 		},
 		"ext.containerFilter.ve.nodes": {
 			"scripts": [
-				"nodes/ext.containerfilter.ce.ContainerFilterNode.js",
 				"nodes/ext.containerfilter.dm.ContainerFilterNode.js",
+				"nodes/ext.containerfilter.ce.ContainerFilterNode.js",
 				"nodes/ext.containerfilter.ui.ContainerFilterInspector.js",
 				"nodes/ext.containerfilter.ui.ContainerFilterInspectorTool.js"
 			],
