@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"containerfilter-desc": "د مخ دننه د منځپانگې د عناصرو چاڼولو ته اجازه ورکوي",
+	"containerfilter-inspector-title": "د منځپانگې چاڼگر",
+	"containerfilter-inspector-input-selector": "ټاکونکی",
+	"containerfilter-inspector-input-selector-placeholder": "د چاڼولو لپاره بريد ټاکنې لپاره ټاکونکی ورگډ کړئ. له مشخصاتو پرته چاڼول د \".wikitable tr\" له‌خوا ترسره کېږي",
+	"containerfiler-droplet-name": "د منځپانگې چاڼگر",
+	"containerfiler-droplet-description": "په څرگندو سيمو کې د منځپانگې له‌مخې چاڼ ته اجازه ورکوي",
+	"containerfilter-input-aria-label": "چاڼگر",
+	"containerfilter-filter-results-label": "$1 {{PLURAL:$1|پايله وموندل شوه|پايلې وموندل شوې}}"
+}
