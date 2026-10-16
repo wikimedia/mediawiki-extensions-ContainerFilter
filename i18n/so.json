@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"containerfilter-desc": "Waxay oggolaanaysaa in la shaandheeyo qaybaha nuxurka ee ku jira bogga",
+	"containerfilter-inspector-title": "Shaandheeyaha nuxurka",
+	"containerfilter-inspector-input-selector": "Xulaha",
+	"containerfilter-inspector-input-selector-placeholder": "Ku dar xulayaal si aad u habayso baaxadda la shaandheynayo. Haddii aan la qeexin, shaandhaynta waxaa lagu sameeyaa \".wikitable tr\"",
+	"containerfiler-droplet-name": "Shaandheeyaha nuxurka",
+	"containerfiler-droplet-description": "Waxay oggolaanaysaa in nuxurka lagu shaandheeyo meelaha la qeexi karo",
+	"containerfilter-input-aria-label": "Shaandhee",
+	"containerfilter-filter-results-label": "$1 {{PLURAL:$1|natiijo|natiijooyin}} la helay"
+}

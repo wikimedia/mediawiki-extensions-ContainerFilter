@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"containerfilter-desc": "Umožňuje filtrovať prvky obsahu v rámci stránky",
+	"containerfilter-inspector-title": "Filter obsahu",
+	"containerfilter-inspector-input-selector": "Selektor",
+	"containerfilter-inspector-input-selector-placeholder": "Pridajte selektory na úpravu rozsahu, ktorý sa má filtrovať. Bez zadania sa filtruje podľa „.wikitable tr“",
+	"containerfiler-droplet-name": "Filter obsahu",
+	"containerfiler-droplet-description": "Umožňuje filtrovanie podľa obsahu v definovateľných oblastiach",
+	"containerfilter-input-aria-label": "Filter",
+	"containerfilter-filter-results-label": "Nájdený {{PLURAL:$1|$1 výsledok|$1 výsledky|$1 výsledkov}}"
+}
